@@ -85,7 +85,7 @@ BLEDescriptor        RGBCCCD(BLEUUID((uint16_t)0x2902));
 
 BLEServer *pServer;
 
-uint32_t    ledColour = pixels.Color(10, 10, 0);
+uint32_t    ledColour = pixels.Color(0, 10, 0);
 
 bool  deviceConnected = false;
 
